@@ -12,12 +12,12 @@ JPA (Java Persistence API)
 📂 Estrutura do Projeto
 O projeto segue o padrão MVC e está organizado da seguinte forma:
 /src
-  │-- /controller   # Controladores que gerenciam a lógica do sistema  
-  │-- /dao          # Camada de acesso ao banco de dados (Data Access Object)  
-  │-- /factory      # Classe responsável por criar a conexão com o banco  
-  │-- /gui          # Interface gráfica (caso tenha)  
-  │-- /model        # Classes que representam os objetos do sistema  
-  │-- /META-INF     # Configuração do persistence.xml para o Hibernate  
+   /controller   # Controladores que gerenciam a lógica do sistema  
+   /dao          # Camada de acesso ao banco de dados (Data Access Object)  
+   /factory      # Classe responsável por criar a conexão com o banco  
+   /gui          # Interface gráfica (caso tenha)  
+   /model        # Classes que representam os objetos do sistema  
+   /META-INF     # Configuração do persistence.xml para o Hibernate  
 
 🛠️ Configuração do Banco de Dados
 Antes de rodar o sistema, certifique-se de que o MySQL está instalado e configurado corretamente.
