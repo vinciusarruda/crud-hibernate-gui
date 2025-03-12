@@ -37,9 +37,9 @@ O projeto segue o padrão MVC e está organizado da seguinte forma:
 Antes de rodar o sistema, certifique-se de que o MySQL está instalado e configurado corretamente.
 
 Criar o banco de dados no MySQL:
-
+```sql
 CREATE DATABASE agenda;
-
+```
 Configurar o usuário e permissões (se necessário):
 
 GRANT ALL PRIVILEGES ON agenda.\* TO 'root'@'localhost' IDENTIFIED BY 'sua\_senha';
