@@ -42,11 +42,11 @@ CREATE DATABASE agenda;
 ```
 Configurar o usuário e permissões (se necessário):
 
+```sql
 GRANT ALL PRIVILEGES ON agenda.\* TO 'root'@'localhost' IDENTIFIED BY 'sua\_senha';
-
+```
 Verificar a configuração do arquivo persistence.xml localizado em src/META-INF/:
-
-xml
+```xml
 
 <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
 
@@ -59,7 +59,7 @@ xml
 <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
 
 <property name="hibernate.hbm2ddl.auto" value="update"/>
-
+```
 📌 OBS: Ajuste os valores conforme necessário.
 
 ▶️ Como Executar o Projeto
