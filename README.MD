@@ -20,7 +20,7 @@ O projeto segue o padrão MVC e está organizado da seguinte forma:
 
 /src
 
-/controller   * Controladores que gerenciam a lógica do sistema *
+/controller   *Controladores que gerenciam a lógica do sistema*
 
 /dao          * Camada de acesso ao banco de dados (Data Access Object) *
 
