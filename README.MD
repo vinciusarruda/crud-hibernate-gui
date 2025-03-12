@@ -1,10 +1,10 @@
 # Projeto Agenda - Hibernate & MySQL #
 
-## 📌 Descrição
+## 📌 Descrição ##
 
 Este projeto é um sistema de agenda desenvolvido em Java, seguindo o padrão MVC (Model-View-Controller), utilizando Hibernate como framework ORM e MySQL como banco de dados.
 
-###⚙️ Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas ##
 
 Java (versão utilizada no desenvolvimento)
 
@@ -14,25 +14,25 @@ MySQL (banco de dados relacional)
 
 JPA (Java Persistence API)
 
-##📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto ##
 
 O projeto segue o padrão MVC e está organizado da seguinte forma:
 
 /src
 
-/controller   *Controladores que gerenciam a lógica do sistema*
+/controller   * Controladores que gerenciam a lógica do sistema *
 
-/dao          *Camada de acesso ao banco de dados (Data Access Object)*
+/dao          * Camada de acesso ao banco de dados (Data Access Object) *
 
-/factory      *Classe responsável por criar a conexão com o banco*
+/factory      * Classe responsável por criar a conexão com o banco *
 
-/gui          *Interface gráfica (caso tenha)*
+/gui          * Interface gráfica (caso tenha) *
 
-/model        *Classes que representam os objetos do sistema*
+/model        * Classes que representam os objetos do sistema *
 
-/META-INF     # Configuração do persistence.xml para o Hibernate
+/META-INF     * Configuração do persistence.xml para o Hibernate *
 
-🛠️ Configuração do Banco de Dados
+## 🛠️ Configuração do Banco de Dados ##
 
 Antes de rodar o sistema, certifique-se de que o MySQL está instalado e configurado corretamente.
 
@@ -60,9 +60,9 @@ Verificar a configuração do arquivo persistence.xml localizado em src/META-INF
 
 <property name="hibernate.hbm2ddl.auto" value="update"/>
 ```
-📌 OBS: Ajuste os valores conforme necessário.
+## 📌 OBS: Ajuste os valores conforme necessário. ##
 
-▶️ Como Executar o Projeto
+## ▶️ Como Executar o Projeto ##
 
 Importe o projeto na sua IDE (NetBeans, Eclipse, IntelliJ).
 
@@ -70,6 +70,6 @@ Certifique-se de que todas as dependências do Hibernate estão no classpath.
 
 Compile e execute o programa.
 
-📜 Licença
+## 📜 Licença ##
 
 Este projeto é de código aberto e pode ser modificado conforme necessário.
