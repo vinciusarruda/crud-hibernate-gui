@@ -1,6 +1,6 @@
-#Projeto Agenda - Hibernate & MySQL#
+# Projeto Agenda - Hibernate & MySQL #
 
-##📌 Descrição
+## 📌 Descrição
 
 Este projeto é um sistema de agenda desenvolvido em Java, seguindo o padrão MVC (Model-View-Controller), utilizando Hibernate como framework ORM e MySQL como banco de dados.
 
